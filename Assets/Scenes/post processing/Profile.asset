@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: -17.6
+    value: -35
   intensityX:
     overrideState: 0
     value: 1
@@ -87,10 +87,10 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 23.8
+    value: 38.95
   tint:
     overrideState: 1
-    value: -1
+    value: -0.35
   colorFilter:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -1360,10 +1360,10 @@ MonoBehaviour:
   active: 1
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   filtering:
     overrideState: 1
-    value: {x: 1, y: 46.000023}
+    value: {x: 53.999985, y: 99}
   minLuminance:
     overrideState: 1
     value: 0
@@ -1380,6 +1380,32 @@ MonoBehaviour:
     overrideState: 1
     value: 2
   speedDown:
+    overrideState: 1
+    value: 1
+--- !u!114 &-6100213493964354954
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  spectralLut:
+    overrideState: 1
+    value: {fileID: 0}
+    defaultState: 1
+  intensity:
+    overrideState: 1
+    value: 0.28
+  fastMode:
     overrideState: 1
     value: 1
 --- !u!114 &11400000
@@ -1401,6 +1427,7 @@ MonoBehaviour:
   - {fileID: 1415757683217207880}
   - {fileID: -7581813543949141124}
   - {fileID: -9144140173485823242}
+  - {fileID: -6100213493964354954}
 --- !u!114 &1415757683217207880
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1428,10 +1455,10 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.48
+    value: 0.54
   smoothness:
     overrideState: 1
-    value: 0.46
+    value: 0.48
   roundness:
     overrideState: 1
     value: 1
@@ -1460,7 +1487,7 @@ MonoBehaviour:
   active: 1
   enabled:
     overrideState: 1
-    value: 0
+    value: 1
   mode:
     overrideState: 1
     value: 1
@@ -1484,7 +1511,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 5.5
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -1509,16 +1536,16 @@ MonoBehaviour:
   active: 1
   enabled:
     overrideState: 1
-    value: 0
+    value: 1
   intensity:
     overrideState: 1
-    value: 20
+    value: 3.11
   threshold:
     overrideState: 1
-    value: 0.9
+    value: 0.77
   softKnee:
     overrideState: 1
-    value: 0.24
+    value: -0
   clamp:
     overrideState: 1
     value: 65461.35
