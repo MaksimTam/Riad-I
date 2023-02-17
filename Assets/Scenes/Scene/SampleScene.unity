@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 1081190854}
   - component: {fileID: 1081190853}
   m_Layer: 0
-  m_Name: CM vcam1
+  m_Name: PERSCAMERA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2585,7 +2585,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652409298328}
-  - component: {fileID: 919132148206610211}
   m_Layer: 0
   m_Name: location1material_03
   m_TagString: Untagged
@@ -2593,19 +2592,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &919132148206610211
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148206610210}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.995136, y: 1.0935934, z: 4.775666}
-  m_Center: {x: 0.11941434, y: 0.0467968, z: -0.8359203}
 --- !u!1 &919132148896608686
 GameObject:
   m_ObjectHideFlags: 0
@@ -11000,14 +10986,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4049125834887120263}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0.99
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 1
+  m_Mass: 0.6
+  m_Drag: 2.18
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!136 &4049125834887120266
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11016,7 +11002,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4049125834887120263}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.30678952
   m_Height: 1.7772655
@@ -11035,6 +11021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  jump: 0.5
   joystick: {fileID: 1671295094}
 --- !u!4 &4083501151202393339
 Transform:
@@ -21550,6 +21537,7 @@ GameObject:
   - component: {fileID: 4156878812583804542}
   - component: {fileID: 4882086716429728765}
   - component: {fileID: 5447331666345068900}
+  - component: {fileID: 8548922999456044685}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -21557,6 +21545,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8548922999456044685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548922999456044684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.277145, y: 3.7969785, z: 1.3799142}
+  m_Center: {x: -0.019636393, y: 0.055683665, z: 0.34266362}
 --- !u!1 &8548923000920336809
 GameObject:
   m_ObjectHideFlags: 0
