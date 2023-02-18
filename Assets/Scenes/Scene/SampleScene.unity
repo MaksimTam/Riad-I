@@ -980,7 +980,7 @@ GameObject:
   - component: {fileID: 3738411645868150678}
   - component: {fileID: 6030577196070393609}
   - component: {fileID: 8875508653577598840}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,7 +1092,7 @@ GameObject:
   - component: {fileID: 7686335201149839123}
   - component: {fileID: 7224515204811411323}
   - component: {fileID: 4340093756178652660}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   - component: {fileID: 8966787360417070434}
   - component: {fileID: 7513546070703532620}
   - component: {fileID: 2348053108742049482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1470,7 @@ GameObject:
   - component: {fileID: 8372438701246838425}
   - component: {fileID: 8204219955053938574}
   - component: {fileID: 232981806782067545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 4016357725303727473}
   - component: {fileID: 3815365574472561069}
   - component: {fileID: 913417538773460683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1629,7 +1629,7 @@ GameObject:
   - component: {fileID: 2751364558868959718}
   - component: {fileID: 7911807883585260895}
   - component: {fileID: 1927342484411985427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Puddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1716,7 +1716,7 @@ GameObject:
   - component: {fileID: 1423440456954451306}
   - component: {fileID: 4932829373146323215}
   - component: {fileID: 2890219393254932663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2383,7 +2383,7 @@ GameObject:
   - component: {fileID: 6363451222544565248}
   - component: {fileID: 5278279292992663349}
   - component: {fileID: 952575465490010721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Planks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2585,13 +2585,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652409298328}
-  m_Layer: 0
+  - component: {fileID: 919132148206610211}
+  m_Layer: 7
   m_Name: location1material_03
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148206610211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148206610210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.938194, y: 0.8401365, z: 1.5096781}
+  m_Center: {x: 1.9690964, y: 0.31577706, z: -0.18366206}
 --- !u!1 &919132148896608686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,7 +2839,7 @@ GameObject:
   - component: {fileID: 801188831596613510}
   - component: {fileID: 1560738022828277240}
   - component: {fileID: 2250332146163491851}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3021,7 +3035,7 @@ GameObject:
   - component: {fileID: 7554025958363671510}
   - component: {fileID: 4865524654490839421}
   - component: {fileID: 4858438818786528999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3039,7 +3053,7 @@ GameObject:
   - component: {fileID: 790807733852212520}
   - component: {fileID: 2161709540277526007}
   - component: {fileID: 6964778860621631217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3171,7 +3185,7 @@ GameObject:
   - component: {fileID: 3817678906769435196}
   - component: {fileID: 3884265048821856747}
   - component: {fileID: 8203107202940334583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3426,7 +3440,7 @@ GameObject:
   - component: {fileID: 6420011516099435637}
   - component: {fileID: 2367514491449224280}
   - component: {fileID: 3989171237976973537}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3480,7 +3494,7 @@ GameObject:
   - component: {fileID: 532117194990556012}
   - component: {fileID: 4083806811157467160}
   - component: {fileID: 3813943714243314531}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Big tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3982,7 +3996,7 @@ GameObject:
   - component: {fileID: 8768747287510921064}
   - component: {fileID: 2316861808119606402}
   - component: {fileID: 7655612823643920968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4036,7 +4050,7 @@ GameObject:
   - component: {fileID: 3203881969825814222}
   - component: {fileID: 6364813960573620724}
   - component: {fileID: 1264480150256142480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 15258_JewelryTree-Maple_v1.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4321,7 +4335,7 @@ GameObject:
   - component: {fileID: 3232641533203576091}
   - component: {fileID: 8594270180600742200}
   - component: {fileID: 395757509580874920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4363,7 +4377,7 @@ GameObject:
   - component: {fileID: 2950331507709395485}
   - component: {fileID: 6068192086281877466}
   - component: {fileID: 7301966133014514946}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4459,7 +4473,7 @@ GameObject:
   - component: {fileID: 4865064392432937884}
   - component: {fileID: 8897240366229766857}
   - component: {fileID: 3129779574592666165}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4477,7 +4491,7 @@ GameObject:
   - component: {fileID: 1194693110147563853}
   - component: {fileID: 5343979482089667619}
   - component: {fileID: 1810841374835026188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5777,7 +5791,7 @@ GameObject:
   - component: {fileID: 7894998717574844569}
   - component: {fileID: 6572004336503323260}
   - component: {fileID: 2291159534910656956}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5957,7 +5971,7 @@ GameObject:
   - component: {fileID: 7378824613409739646}
   - component: {fileID: 5148680520100570624}
   - component: {fileID: 8475716831278769152}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6321,7 +6335,7 @@ GameObject:
   - component: {fileID: 1657404888507183684}
   - component: {fileID: 4598386808531119304}
   - component: {fileID: 6847671235766693141}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6746,7 +6760,7 @@ GameObject:
   - component: {fileID: 8996719411197846832}
   - component: {fileID: 7183999939001001294}
   - component: {fileID: 3910890340501268573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe Wood.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7198,7 +7212,7 @@ GameObject:
   - component: {fileID: 3057098049641861920}
   - component: {fileID: 2681634252481521573}
   - component: {fileID: 7654901366342473373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7644,7 +7658,7 @@ GameObject:
   - component: {fileID: 4399837144473315879}
   - component: {fileID: 7889990998759433993}
   - component: {fileID: 2724358915032565307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7907,7 +7921,7 @@ GameObject:
   - component: {fileID: 4940999050978190292}
   - component: {fileID: 1404757080235945741}
   - component: {fileID: 3233210648873790705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8570,7 +8584,7 @@ GameObject:
   - component: {fileID: 298716658736553674}
   - component: {fileID: 5884390716056172034}
   - component: {fileID: 3566222913167690139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8854,7 +8868,7 @@ GameObject:
   - component: {fileID: 1002729903278850096}
   - component: {fileID: 7922250984421383713}
   - component: {fileID: 3626383001499978446}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9050,7 +9064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754638199209918592}
   - component: {fileID: 2836342993299137319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sun.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9546,7 +9560,7 @@ GameObject:
   - component: {fileID: 6645823805597220930}
   - component: {fileID: 5366159434865730102}
   - component: {fileID: 7202271455975025836}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9822,7 +9836,7 @@ GameObject:
   - component: {fileID: 9144543641122959414}
   - component: {fileID: 3736905747852844480}
   - component: {fileID: 3495586778385546486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10105,7 +10119,7 @@ GameObject:
   - component: {fileID: 4950892146806719912}
   - component: {fileID: 1531479415762005537}
   - component: {fileID: 7620226894186148115}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10208,7 +10222,7 @@ GameObject:
   - component: {fileID: 5608662487816262123}
   - component: {fileID: 7023698037555141823}
   - component: {fileID: 4681761807492710775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10986,11 +11000,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4049125834887120263}
   serializedVersion: 2
-  m_Mass: 0.6
+  m_Mass: 1
   m_Drag: 2.18
   m_AngularDrag: 0
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -11021,7 +11035,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  jump: 0.5
   joystick: {fileID: 1671295094}
 --- !u!4 &4083501151202393339
 Transform:
@@ -11135,7 +11148,7 @@ GameObject:
   - component: {fileID: 4041577997466813098}
   - component: {fileID: 4035052288578567744}
   - component: {fileID: 7946702091793054706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11877,7 +11890,7 @@ GameObject:
   - component: {fileID: 2333281042730571456}
   - component: {fileID: 4001781964981860359}
   - component: {fileID: 7646439372082492030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12215,7 +12228,7 @@ GameObject:
   - component: {fileID: 6794466566047685943}
   - component: {fileID: 5346828966871775216}
   - component: {fileID: 5978141104729609368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12426,7 +12439,7 @@ GameObject:
   - component: {fileID: 6835375180267142880}
   - component: {fileID: 904930433122131979}
   - component: {fileID: 3214565428085431422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12847,7 +12860,7 @@ GameObject:
   - component: {fileID: 5269240831062584426}
   - component: {fileID: 1905590163379683138}
   - component: {fileID: 7682579063289565511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13099,7 +13112,7 @@ GameObject:
   - component: {fileID: 3558256892197742010}
   - component: {fileID: 1411599753023133370}
   - component: {fileID: 5647030557776548584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13310,7 +13323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7800219918623255103}
   - component: {fileID: 5958438920362976868}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13490,7 +13503,7 @@ GameObject:
   - component: {fileID: 402629000291313643}
   - component: {fileID: 1487922318916595192}
   - component: {fileID: 3185038313359742275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13813,7 +13826,7 @@ GameObject:
   - component: {fileID: 572343679881848478}
   - component: {fileID: 900187111634106787}
   - component: {fileID: 6962061137052908854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13969,7 +13982,7 @@ GameObject:
   - component: {fileID: 5796319937394767217}
   - component: {fileID: 8334002312403929649}
   - component: {fileID: 8405319637594692368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stump.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14322,7 +14335,7 @@ GameObject:
   - component: {fileID: 4088569454832354456}
   - component: {fileID: 6604479404475791286}
   - component: {fileID: 4807991088757166353}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: plank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14980,7 +14993,7 @@ GameObject:
   - component: {fileID: 6372642565489008229}
   - component: {fileID: 463670418010807399}
   - component: {fileID: 5697172275496184888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15492,7 +15505,7 @@ GameObject:
   - component: {fileID: 8018190270356397854}
   - component: {fileID: 5043337071237731689}
   - component: {fileID: 8920635797828771872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16217,7 +16230,7 @@ GameObject:
   - component: {fileID: 5905158800813847723}
   - component: {fileID: 6318239598475275181}
   - component: {fileID: 2431588507495851556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16553,7 +16566,7 @@ GameObject:
   - component: {fileID: 6344406003292354138}
   - component: {fileID: 1569190721881153567}
   - component: {fileID: 8943613489825770567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16571,7 +16584,7 @@ GameObject:
   - component: {fileID: 1991551282249887631}
   - component: {fileID: 6400614084108674022}
   - component: {fileID: 7056815972755730949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17029,7 +17042,7 @@ GameObject:
   - component: {fileID: 1891136398645805669}
   - component: {fileID: 4240055836871258276}
   - component: {fileID: 6298939228540159030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stump.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17408,7 +17421,7 @@ GameObject:
   - component: {fileID: 7184312304235545037}
   - component: {fileID: 1152049840477910384}
   - component: {fileID: 1495849541575222734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17588,7 +17601,7 @@ GameObject:
   - component: {fileID: 6163248073924245716}
   - component: {fileID: 3047950911215037773}
   - component: {fileID: 8931977835978460280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18196,7 +18209,7 @@ GameObject:
   - component: {fileID: 3897091343378479748}
   - component: {fileID: 8467695624397109288}
   - component: {fileID: 2653857219355259999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18282,7 +18295,7 @@ GameObject:
   - component: {fileID: 2429503018563467578}
   - component: {fileID: 1517051328683164692}
   - component: {fileID: 3985521064969149181}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19999,7 +20012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9222065739687441284}
   - component: {fileID: 2382799220818817766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20284,7 +20297,7 @@ GameObject:
   - component: {fileID: 6830945431565615028}
   - component: {fileID: 7606442908276346521}
   - component: {fileID: 4321514658504208118}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20423,7 +20436,7 @@ GameObject:
   - component: {fileID: 5874900150194932375}
   - component: {fileID: 5905884733451256632}
   - component: {fileID: 7755051234015849682}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: plank.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20695,7 +20708,7 @@ GameObject:
   - component: {fileID: 8841251018269165614}
   - component: {fileID: 274092831780682631}
   - component: {fileID: 8651102986139830147}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20806,7 +20819,7 @@ GameObject:
   - component: {fileID: 7927778373814174353}
   - component: {fileID: 4305509730749569699}
   - component: {fileID: 4308976109339242121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21109,7 +21122,7 @@ GameObject:
   - component: {fileID: 9085745927054934455}
   - component: {fileID: 5218342230795430323}
   - component: {fileID: 923086323100047649}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21127,7 +21140,7 @@ GameObject:
   - component: {fileID: 3221155414070443239}
   - component: {fileID: 504235825088460460}
   - component: {fileID: 3230056779876267640}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stump.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21470,7 +21483,7 @@ GameObject:
   - component: {fileID: 7357471187169869140}
   - component: {fileID: 5484078049253557910}
   - component: {fileID: 8509953608452701331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle_Circle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21538,7 +21551,7 @@ GameObject:
   - component: {fileID: 4882086716429728765}
   - component: {fileID: 5447331666345068900}
   - component: {fileID: 8548922999456044685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21945,7 +21958,7 @@ GameObject:
   - component: {fileID: 8646972275590594508}
   - component: {fileID: 562987419063051112}
   - component: {fileID: 7807000990920571564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22093,7 +22106,7 @@ GameObject:
   - component: {fileID: 7262958383177569404}
   - component: {fileID: 8010416603333621269}
   - component: {fileID: 7800628358674183077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22810,7 +22823,7 @@ GameObject:
   - component: {fileID: 7790582743509355763}
   - component: {fileID: 5819744748731555286}
   - component: {fileID: 4505179605893298488}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nail.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23001,7 +23014,7 @@ GameObject:
   - component: {fileID: 7741467411618647781}
   - component: {fileID: 1807252724439120879}
   - component: {fileID: 1637046931861595878}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
