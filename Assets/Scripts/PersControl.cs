@@ -8,6 +8,10 @@ using Vector3 = UnityEngine.Vector3;
 [RequireComponent(typeof(Rigidbody))]
 public class PersControl : MonoBehaviour
 {
+
+    [SerializeField] private AudioSource runSound;
+    [SerializeField] private AudioSource jumpSound;
+
     public float speed = 1f;
     public float jump;
     private float moveInput;
@@ -36,6 +40,9 @@ public class PersControl : MonoBehaviour
     {
         moveInput = joystick.Horizontal;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+
+
         if (facingRight == false && moveInput > 0)
         {
             Flip();
@@ -49,6 +56,7 @@ public class PersControl : MonoBehaviour
 
         if (moveInput == 0)
         {
+            runSound.Play();
             anim.SetBool("isRunning", false);
         }
         else
@@ -69,6 +77,7 @@ public class PersControl : MonoBehaviour
         }
         else
         {
+            jumpSound.Play();
             anim.SetBool("isJumping", true);
         }
     }
