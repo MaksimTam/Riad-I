@@ -37,7 +37,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 48
-      lastFrame: 140
+      lastFrame: 130
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -233,7 +233,8 @@ ModelImporter:
     - name: hand.R_end
       parentName: hand.R
       position: {x: -1.8626451e-11, y: 0.0011146566, z: 5.122274e-11}
-      rotation: {x: -0.000000008614732, y: -0.00000006053595, z: -0.00000003794229, w: 1}
+      rotation: {x: -0.000000008614732, y: -0.00000006053595, z: -0.00000003794229,
+        w: 1}
       scale: {x: 1.0000021, y: 1.0000001, z: 0.99999934}
     - name: hand.R_end_end
       parentName: hand.R_end
@@ -263,7 +264,8 @@ ModelImporter:
     - name: breast.R_end
       parentName: breast.R
       position: {x: 5.47152e-11, y: 0.0010813166, z: 5.913898e-10}
-      rotation: {x: -0.00000008940695, y: -0.00000003721281, z: 0.000000018126913, w: 1}
+      rotation: {x: -0.00000008940695, y: -0.00000003721281, z: 0.000000018126913,
+        w: 1}
       scale: {x: 1.0000094, y: 1.000006, z: 1.0000074}
     - name: breast.R_end_end
       parentName: breast.R_end
@@ -278,7 +280,8 @@ ModelImporter:
     - name: pelvis.L_end
       parentName: pelvis.L
       position: {x: 3.352761e-10, y: 0.0015144147, z: -1.862645e-10}
-      rotation: {x: 0.000000029802322, y: -0.00000008940697, z: 0.000000022351742, w: 1}
+      rotation: {x: 0.000000029802322, y: -0.00000008940697, z: 0.000000022351742,
+        w: 1}
       scale: {x: 0.99999696, y: 0.9999997, z: 0.99999815}
     - name: pelvis.L_end_end
       parentName: pelvis.L_end
@@ -323,7 +326,8 @@ ModelImporter:
     - name: toe.L_end
       parentName: toe.L
       position: {x: 3.937944e-11, y: 0.00048170603, z: -1.6678365e-11}
-      rotation: {x: 0.00000014901158, y: 0.000000005024289, z: -0.0000000031611365, w: 1}
+      rotation: {x: 0.00000014901158, y: 0.000000005024289, z: -0.0000000031611365,
+        w: 1}
       scale: {x: 0.99999803, y: 1.0000088, z: 1.0000073}
     - name: toe.L_end_end
       parentName: toe.L_end
@@ -338,7 +342,8 @@ ModelImporter:
     - name: heel.02.L_end
       parentName: heel.02.L
       position: {x: 4.5366395e-11, y: 0.0005161137, z: -3.5526603e-12}
-      rotation: {x: 0.000000014901158, y: -0.000000044703473, z: -0.00000011920926, w: 1}
+      rotation: {x: 0.000000014901158, y: -0.000000044703473, z: -0.00000011920926,
+        w: 1}
       scale: {x: 1.0000006, y: 0.99999875, z: 1.0000012}
     - name: heel.02.L_end_end
       parentName: heel.02.L_end
@@ -522,7 +527,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8eb1572fdc1284427a953c1e5a3b11a3, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8eb1572fdc1284427a953c1e5a3b11a3,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1

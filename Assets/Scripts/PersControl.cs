@@ -16,6 +16,7 @@ public class PersControl : MonoBehaviour
     public float jump;
     private float moveInput;
     private bool facingRight = true;
+    public float stop;
   
     private Rigidbody rb;
    
@@ -65,13 +66,25 @@ public class PersControl : MonoBehaviour
         }
 
     }
+
+    public void OnJumpButtonDown()
+    {
+
+        if (isGrounded == true)
+        {
+            isGrounded = false;
+            rb.AddForce(Vector3.up * 100 * jump);
+            anim.SetTrigger("takeOff");
+        }
+    }
+
     private void Update()
     {
         float verticalMove = joystick.Vertical;
 
         isGrounded = Physics.Raycast(_GroundChackObject.transform.position, Vector3.down, checkRadius);
 
-        if(isGrounded == true)
+        if (isGrounded == true)
         {
             anim.SetBool("isJumping", false);
         }
@@ -79,17 +92,6 @@ public class PersControl : MonoBehaviour
         {
             jumpSound.Play();
             anim.SetBool("isJumping", true);
-        }
-    }
-
-    public void OnJumpButtonDown()
-    {
-
-        if (isGrounded)
-        {
-            isGrounded = false;
-            rb.AddForce(Vector3.up * 100 * jump);
-            anim.SetTrigger("takeOff");
         }
     }
 
