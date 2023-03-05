@@ -10,18 +10,22 @@ public class Dialog : MonoBehaviour
     public Text TextDialog;
     public string[] message;
     public bool StartDialog = false;
+    public Animator anim;
 
     private void Start()
     {
-        message[0] = "Райдэн:Эй, куда это ты так спешишь?";
-        message[1] = "Алие:(Молчание)";
-        message[2] = "Райдэн: Язык проглатила?";
-        message[3] = "Алие: Что? Вы кто вообще? Что вы забыли в Умершем лесу?";
-        message[4] = "Райдэн: Страж банды Неуловимые Черти не должен, что-либо объяснять кому-то неживому";
-        message[5] = "Райдэн: А теперь мне нужно отвести тебя к нашему лидеру";
-        message[6] = "Алие: Какой лидер, что ты вообще несешь?";
-        message[7] = "Райдэн: У тебя уже нет выбора";
-        message[8] = "Алие: Хммм...., выбор есть всегда";
+        anim = GetComponent<Animator>();
+        anim.SetBool("SIT", true);
+
+        message[0] = "Р Р°Р№РґРµРЅ: Р­Р№, РєСѓРґР° С‚Р°Рє СЃРїРµС€РёС€СЊ?";
+        message[1] = "РђР»РёРµ:(РњРѕР»С‡Р°РЅРёРµ...)";
+        message[2] = "Р Р°Р№РґРµРЅ: РЇР·С‹Рє РїСЂРѕРіР»Р°С‚РёР»Р°?";
+        message[3] = "РђР»РёРµ: Р§С‚Рѕ? Р’С‹ РєС‚Рѕ РІРѕРѕР±С‰Рµ? Р§С‚Рѕ РІС‹ Р·Р°Р±С‹Р»Рё РІ 'РЈРјРµСЂС€РѕРј Р›РµСЃСѓ'?";
+        message[4] = "Р Р°Р№РґРµРЅ: РЎС‚СЂР°Р¶, РЅРµ РґРѕР»Р¶РµРЅ, С‡С‚Рѕ-Р»РёР±Рѕ СЂР°Р·СЉСЏРЅСЏС‚СЊ РґР»СЏ РїСЂРѕСЃС‚С‹С… СЃРјРµСЂС‚РЅС‹С…";
+        message[5] = "Р Р°Р№РґРµРЅ: Рђ С‚РµРїРµСЂСЊ РёРґРµРј Р·Р° РјРЅРѕР№, РїРѕРєР°Р¶Сѓ РЅР°С€Рё РєСЂР°СЃРѕС‚С‹";
+        message[6] = "РђР»РёРµ: РљР°РєРёРµ РєСЂР°СЃРѕС‚С‹? Р§С‚Рѕ С‚С‹ РЅРµСЃРµС€СЊ!?";
+        message[7] = "Р Р°Р№РґРµРЅ: РЈ С‚РµР±СЏ СѓР¶Рµ РЅРµС‚Сѓ РІС‹Р±РѕСЂР°";
+        message[8] = "РђР»РёРµ: РҐРјРјРј...., Р° РІРѕР·РјРѕР¶РЅРѕ Рё РµСЃС‚СЊ";
 
 
         panel.SetActive(false);
@@ -31,9 +35,11 @@ public class Dialog : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            anim.SetTrigger("isGetUP1"); 
             panel.SetActive(true);
             TextDialog.text = message[0];
             StartDialog = true;
+            anim.SetBool("SIT", false);
         }
     }
 
@@ -46,39 +52,7 @@ public class Dialog : MonoBehaviour
     {
         if (StartDialog == true)
         {
-            if (Input.GetKeyDown(KeyCode.Z))
-            {
-                TextDialog.text = message[1];
-                
-            }
-            if (Input.GetKeyDown(KeyCode.X))
-            {
-                TextDialog.text = message[2];
-            }
-            if (Input.GetKeyDown(KeyCode.C))
-            {
-                TextDialog.text = message[3];
-            }
-            if (Input.GetKeyDown(KeyCode.V))
-            {
-                TextDialog.text = message[4];
-            }
-            if (Input.GetKeyDown(KeyCode.B))
-            {
-                TextDialog.text = message[5];
-            }
-            if (Input.GetKeyDown(KeyCode.N))
-            {
-                TextDialog.text = message[6];
-            }
-            if (Input.GetKeyDown(KeyCode.M))
-            {
-                TextDialog.text = message[7];
-            }
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                TextDialog.text = message[8];
-            }
+
         }
     }
 }
