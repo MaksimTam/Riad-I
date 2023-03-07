@@ -11,6 +11,13 @@ public class DialogButton : MonoBehaviour
     public string[] message;
     public int numberDialog = 0;
     public Button button;
+    public Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+        anim.SetBool("SIT", true);
+    }
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -22,6 +29,9 @@ public class DialogButton : MonoBehaviour
             }
             else
             {
+                anim.SetBool("SIT", false);
+                anim.SetTrigger("isGetUP1");
+                anim.SetTrigger("isSpeak");
                 button.gameObject.SetActive(true);
                 button.onClick.AddListener(NextDialog);
             }
