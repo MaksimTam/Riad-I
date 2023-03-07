@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class Dialog : MonoBehaviour
 {
     public GameObject panel;
@@ -11,6 +12,8 @@ public class Dialog : MonoBehaviour
     public string[] message;
     public bool StartDialog = false;
     public Animator anim;
+    public Button button;
+
 
     private void Start()
     {
@@ -31,6 +34,7 @@ public class Dialog : MonoBehaviour
         panel.SetActive(false);
     }
 
+   
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -52,6 +56,7 @@ public class Dialog : MonoBehaviour
     {
         if (StartDialog == true)
         {
+            
 
         }
     }
