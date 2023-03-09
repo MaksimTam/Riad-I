@@ -55,6 +55,9 @@ public class DialogButton : MonoBehaviour
         if (numberDialog == message.Length - 1)
         {
             button.gameObject.SetActive(false);
+            windowDialog.SetActive(false);
         }
     }
+
+
 }
