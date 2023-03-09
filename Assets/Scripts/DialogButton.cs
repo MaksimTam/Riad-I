@@ -12,6 +12,8 @@ public class DialogButton : MonoBehaviour
     public int numberDialog = 0;
     public Button button;
     public Animator anim;
+    private float moveInput;
+    public float speed = 1f;
 
     private void Start()
     {
@@ -46,6 +48,7 @@ public class DialogButton : MonoBehaviour
         windowDialog.SetActive(false);
         numberDialog = 0;
         button.onClick.RemoveAllListeners();
+
     }
 
     public void NextDialog()
